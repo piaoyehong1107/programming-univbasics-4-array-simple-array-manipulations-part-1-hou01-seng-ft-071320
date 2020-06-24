@@ -9,3 +9,7 @@ end
 def using_pop(Array)
   Array.pop
 end
+
+def using_push(Array, String)
+  Array.push(String)
+end
