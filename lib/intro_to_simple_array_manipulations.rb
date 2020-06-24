@@ -11,5 +11,7 @@ def using_pop(Array)
 end
 
 def pop_with_args(Array)
-  Array.push(String)
+  newArray = Array.pop
+  newArray = newArray.pop
+  newArray
 end
