@@ -1,17 +1,17 @@
-def using_push(array, String)
-  Array.push(String)
+def using_push(array, string)
+  array.push(string)
 end
 
-def using_unshift(Array, String)
-  Array.unshift(String)
+def using_unshift(array, string)
+  array.unshift(string)
 end
 
-def using_pop(Array)
-  Array.pop
+def using_pop(array)
+  array.pop
 end
 
-def pop_with_args(Array)
-  newArray = Array.pop
+def pop_with_args(array)
+  newArray = array.pop
   newArray = newArray.pop
   newArray
 end
