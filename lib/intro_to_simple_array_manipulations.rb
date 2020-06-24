@@ -10,6 +10,6 @@ def using_pop(Array)
   Array.pop
 end
 
-def using_push(Array, String)
+def pop_with_args(Array)
   Array.push(String)
 end
